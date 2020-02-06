@@ -6,3 +6,70 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Poppins";
+}
+#navbar img{
+    width: 200px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+#navbar > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#title{
+    background-image: url(../images/landing.jpg);
+    height: 650px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+#offer div{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.icons img{
+    width: 100px;
+}
+
+.icons{
+width: 230px;
+text-align: center;
+padding: 20px;
+}    
+
+.icons h4{
+    color: #00B172;
+    font-size: 20px;
+    padding:20px;
+}
